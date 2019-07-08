@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    line-height:1.8em;
+    color: #eee;
+}
+
+.pimg1 {
+    background-image: url(../images/Garrett_King_2-2.jpg);
+    min-height: 100%;
+}
+
+/*image positioning*/
+
+.pimg1 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* fixed = parallax       scroll = normal*/
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section1 {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
