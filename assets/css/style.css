@@ -2,11 +2,18 @@ body, html {
     height: 100%;
     margin: 0;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400px;
     line-height:1.8em;
     color: #eee;
 }
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+/*------------------ Main Page ------------------------------*/
 
 .pimg1 {
     background-image: url(../images/Garrett_King_2-2.jpg);
@@ -25,16 +32,6 @@ body, html {
     background-attachment: fixed;
 }
 
-.section {
-    text-align: center;
-    padding: 50px 80px;
-}
-
-.section1 {
-    background-color: #282e34;
-    color: #ddd;
-}
-
 .ptext {
     position: absolute;
     top: 50%;
@@ -44,10 +41,48 @@ body, html {
     font-size: 30px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    clear: both;
 }
 
-.ptext .border{
+.ptext .border {
     background-color: #111;
     color: #fff;
     padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+/*----------------------------------------------------------------*/
+
+/*------------------- Section 1 ------------------------------*/
+
+.section1 {
+    background-color: #282e34;
+    color: #ddd;
+    height: 350px;
+}
+
+
+.underline {
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+.mattPhoto {
+    max-height: 250px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.section1 p {
+    padding: 30px;
+}
+/*-------------------------------------------------------------------*/
+
+/*--------------------------- Section 2 -----------------------------------*/
+.section2 {
+    background-color: #282e34;
+    color: #ddd;
+    height: 500px;
 }
